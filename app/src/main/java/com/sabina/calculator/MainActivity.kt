@@ -51,5 +51,14 @@ class MainActivity : AppCompatActivity() {
         nine.setOnClickListener {
             display.text = display.text.toString() + "9"
         }
+
+        zero.setOnClickListener {
+            display.text = display.text.toString() + "0"
+        }
+
+        //Functions
+        clear.setOnClickListener {
+            display.text = ""
+        }
     }
 }
